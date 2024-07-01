@@ -10,7 +10,7 @@ import { logger } from './logger'
 /*
  * Instance of the Prisma Client
  */
-export const db = new PrismaClient({
+export const db: any = new PrismaClient({
   log: emitLogLevels(['info', 'warn', 'error']),
 })
 
